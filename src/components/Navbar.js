@@ -63,7 +63,7 @@ function Navbar() {
             </Link>
           </li> */}
           <li>
-            <a className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="081287665556">
+            <a className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="https://wa.me/0812-8766-5556">
               <i className="fab fa-whatsapp"></i> WhatsApp
             </a>
           </li>
