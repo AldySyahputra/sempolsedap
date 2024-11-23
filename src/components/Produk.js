@@ -98,7 +98,7 @@ function Produk() {
   };
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto py-10 overflow-hidden">
       <div className="flex flex-col md:flex-row items-center mt-14">
         {' '}
         {/* Menambahkan kelas animasi */}
