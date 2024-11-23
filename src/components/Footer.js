@@ -15,7 +15,7 @@ const Footer = () => (
           ))}
         </div>
       </div>
-      <div>
+      <div className="text-center md:text-left">
         <h3 className="text-lg font-bold text-white">FITUR</h3>
         <ul className="mt-4 space-y-2">
           {['Beranda', 'Produk', 'WhatsApp'].map((item) => (
@@ -27,7 +27,7 @@ const Footer = () => (
           ))}
         </ul>
       </div>
-      <div>
+      <div className="text-center md:text-left">
         <h3 className="text-lg font-bold text-white">PRODUK</h3>
         <ul className="mt-4 space-y-2">
           {['Sempol Ayam', 'Citul', 'Teh Poci', 'Jeruk Peras'].map((item) => (
