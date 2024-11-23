@@ -103,7 +103,7 @@ function Produk() {
         {' '}
         {/* Menambahkan kelas animasi */}
         <div className="md:w-1/2 w-full animate-fade-in-right">
-          <h1 className="text-3xl font-bold text-gray-800 mb-4 text-center md:text-left">SILAHKAN PESAN JAJANAN DI WEBSITE SEMPOL SEDAP🤗</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-4 text-center md:text-left">SILAHKAN PESAN JAJANAN DI WEBSITE SEMPOL SEDAP🤗</h1>
           <p className="text-gray-600 mb-6 text-left font-semibold text-center md:text-left">
             Kepada Pelanggan Setia Sempol Sedap, Sekarang Sempol Sedap Bisa Memesan Jajanan Yang Bapak/Ibu & Kakak/Adik Suka Melalui WhatsApp. Terimakasih🥰
           </p>
