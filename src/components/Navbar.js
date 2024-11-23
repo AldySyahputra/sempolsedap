@@ -10,22 +10,22 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-black shadow-lg fixed top-0 w-full z-10">
+    <nav className="bg-white shadow-lg fixed top-0 w-full z-10">
       <div className="max-w-8xl mx-auto px-4">
         <div className="flex justify-between">
-          <div className="flex space-x-7">
+          <div className="flex space-x-5">
             <div>
               <Link className="flex items-center py-4 px-2" to="/">
-                <img alt="Company Logo" className="h-16 w-24 mr-2" src={logo} /> {/* Menggunakan gambar yang diimpor */}
+                <img alt="Company Logo" className="h-16 w-16 mr-2" src={logo} /> {/* Menggunakan gambar yang diimpor */}
               </Link>
             </div>
             <div className="hidden md:flex items-center justify-center space-x-7 px-96">
               {' '}
               {/* Tambahkan justify-center */}
-              <Link className="py-4 px-2 text-white font-extrabold hover:text-red-500 text-opacity-50 transition duration-300 hover:underline" to="/">
+              <Link className="py-4 px-2 text-black font-extrabold hover:text-red-500 text-opacity-50 transition duration-300 hover:underline" to="/">
                 BERANDA
               </Link>
-              <Link className="py-4 px-2 text-white font-extrabold hover:text-red-500 text-opacity-50 transition duration-300 hover:underline" to="/produk">
+              <Link className="py-4 px-2 text-black font-extrabold hover:text-red-500 text-opacity-50 transition duration-300 hover:underline" to="/produk">
                 PRODUK
               </Link>
             </div>
@@ -37,7 +37,7 @@ function Navbar() {
           </div>
           <div className="md:hidden flex items-center">
             <button className="outline-none mobile-menu-button" onClick={toggleMobileMenu}>
-              <svg className="w-6 h-6 text-gray-500 hover:text-red-500 text-opacity-50" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 text-gray-500 hover:text-gray-400 text-opacity-50" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
                 <path d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
@@ -48,12 +48,12 @@ function Navbar() {
       <div className={`md:hidden mobile-menu ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <ul>
           <li className="active">
-            <Link className="block text-sm px-2 py-4 text-white bg-red-500 font-semibold" to="/">
+            <Link className="block text-sm px-2 py-4 text-black bg-red-500 font-semibold" to="/">
               BERANDA
             </Link>
           </li>
           <li>
-            <Link className="block text-sm px-2 py-4 text-white hover:bg-red-500 transition duration-300 font-semibold" to="/produk">
+            <Link className="block text-sm px-2 py-4 text-black hover:bg-red-500 transition duration-300 font-semibold" to="/produk">
               PRODUK
             </Link>
           </li>
@@ -63,7 +63,7 @@ function Navbar() {
             </Link>
           </li> */}
           <li>
-            <a className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="https://wa.me/6281287665556">
+            <a className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="https://wa.me/081287665556">
               <i className="fab fa-whatsapp"></i> WhatsApp
             </a>
           </li>
