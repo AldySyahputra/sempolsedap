@@ -11,9 +11,9 @@ function Navbar() {
 
   return (
     <nav className="bg-white shadow-lg fixed top-0 w-full z-10">
-      <div className="max-w-7xl mx-auto px-2">
+      <div className="max-w-8xl mx-auto px-2">
         <div className="flex justify-between">
-          <div className="flex space-x-5">
+          <div className="flex space-x-3">
             <div>
               <Link className="flex items-center py-4 px-2" to="/">
                 <img alt="Company Logo" className="h-16 w-16 mr-2" src={logo} /> {/* Menggunakan gambar yang diimpor */}
