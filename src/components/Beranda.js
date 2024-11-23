@@ -63,7 +63,7 @@ function Beranda() {
             <p className="text-gray-600 mb-6 text-left font-semibold text-center md:text-left">
               Kepada Pelanggan Setia Sempol Sedap, Sekarang Sempol Sedap Bisa Memesan Jajanan Yang Bapak/Ibu & Kakak/Adik Suka Melalui WhatsApp. Terimakasih🥰
             </p>
-            <Link className="font-extrabold py-2 px-4 bg-red-600 text-white rounded transition duration-300 block mx-auto md:mx-0" to="/about" style={{ maxWidth: '300px', textAlign: 'center' }}>
+            <Link className="font-extrabold py-2 px-4 bg-red-600 text-white rounded transition duration-300 block mx-auto md:mx-0" to="/produk" style={{ maxWidth: '300px', textAlign: 'center' }}>
               <i className="fa fa-tag"></i> Lihat Semua Jajanan
             </Link>
           </div>
